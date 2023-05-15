@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Players } from '../shared/ListOfPlayers'
 
-export default class player extends Component {
-    render() {
+export default function Player() {
+    
         return (
             <div className='container'>
-                {Players.map((player)=>(
+                {Player.map((player)=>(
                 <div className='column'>
                      <div className='card'>
                         <img src={player.img}></img>
@@ -67,5 +67,5 @@ export default class player extends Component {
             //     </div>
             // </div>
         )
-    }
+    
 }
