@@ -51,6 +51,7 @@ nav{
   justify-content: "space-between";
   border-bottom: "groove";
   align-items: center;
+  margin-bottom: 20px;
   
 }
 .navigator{
@@ -78,6 +79,11 @@ a{
   grid-template-columns: repeat(3,1fr); 
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
+ 
+}
+.column{
+  border: 1px solid;
+  box-shadow: 10px 10px 8px #888888;
 }
 img{
   max-width: 100%;
@@ -90,6 +96,7 @@ button{
   width: 100%;
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 button:hover{
   color:brown;

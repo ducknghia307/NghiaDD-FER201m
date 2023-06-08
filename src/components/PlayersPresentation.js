@@ -12,15 +12,15 @@ export default function PlayersPresentation({ players }) {
             <h3>{player.name}</h3>
             <p className="title">{player.club}</p>
             <p>
+                <a href="#popup1" id="openPopUp">
               <button
                 onClick={() => {
                   setPlayer(player);
                 }}
               >
-                <a href="#popup1" id="openPopUp">
                   Detail
-                </a>
               </button>
+                </a>
             </p>
           </div>
         </div>
